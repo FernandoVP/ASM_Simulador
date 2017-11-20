@@ -29,3 +29,15 @@ Donde ' .datos ' es una directiva y ' FIN ' es una palabra reservada.
 - (Cargar NUmero) cnu registro, valor. Ejemplos:  
   cnu $t1, 15.1  
   cnu $t0, -1  
+- (Cargar STring) cst registro, valor. Ejemplos:   
+  cst $t2, "HOLA"  
+- (IMPrimir) imp [registro | valor]. Ejemplos:  
+  imp $t1  
+  imp 15.3  
+  imp "Hola"  
+- (SUMar) sum \$t1, \$t2, \$t3. El resultado se guarda en \$t3.  
+- (REStar) res \$t1, \$t2, \$t3. El resultado se guarda en \$t3.  
+- (MULtiplicar) mul \$t1, \$t2, \$t3. El resultado se guarda en \$t3.  
+- (DIVidir) div \$t1, \$t2, \$t3. El resultado se guarda en \$t3.  
+- (Si es Mayor, Salta) sms \$t1, \$t2, ETIQUETA. Compara si lo que hay en \$t1 es mayor a lo que hay en \$t2, de ser así, salta a ETIQUETA. En caso contrario, ignora la instrucción.  
+- (Saltar) sal ETIQUETA. Salta a la etiqueta que la digamos.
