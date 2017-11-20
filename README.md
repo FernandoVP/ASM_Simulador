@@ -26,6 +26,6 @@ Donde ' .datos ' es una directiva y ' FIN ' es una palabra reservada.
 - Comentarios: Empiezan y terminan con un ' # '.
 - Cadenas: Empiezan y terminan con un ' " '.
 - Registros: $t0. El dígito puede ir del 0 al 9. Son registros de propósito general,
-- (Cargar NUmero) cnu registro, valor. Ejemplos: 
+- (Cargar NUmero) cnu registro, valor. Ejemplos: \n
   cnu $t1, 15.1
   cnu $t0, -1
